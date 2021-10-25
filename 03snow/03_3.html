@@ -1,0 +1,60 @@
+<!-- Final Fantasy II 맵 공략 -------------------------------------------------------------------------------------------->
+<!-- 3_3 설원의동굴 B3F -------------------------------------------------------------------------------------------->
+<!doctype html>
+<html lang="ko">
+<HEAD>
+<meta charset="UTF-8">
+<TITLE></TITLE>
+<SCRIPT src="../functions.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//--------------------------------------------------------------------------------------------------------------------------
+// 수정해야하는 부분
+//
+
+// createObject('브라우저타이틀', "맵이름이미지", x, y, 0,0,0,0, '', '팝업이면popup명시', '맵이미지');
+cName = new createObject('설원의동굴 B3F', "03_3-name.gif", 154, 113,0,0,0,0,'','','03_3-main.gif'); // x가 -1이면 맵이름 x
+
+cCount = 4; //이벤트의 갯수
+
+// 설명은 스크립트 참조
+cItem1 = new createObject(	'item01', '03_3-item01.gif',
+							0, 160,
+							65, 210, 95, 240,
+							'남극의바람',
+							'Layer', '');
+
+cItem2 = new createObject(	'floor01', '03_2.html',
+							0, 0,
+							255, 150, 285, 190,
+							'B2층계단',
+							'Location', '');
+
+cItem3 = new createObject(	'floor02', '03_2.html',
+							0, 0,
+							400, 35, 430, 75,
+							'B2층계단',
+							'Location', '');
+
+cItem4 = new createObject(	'floor03', '03_4.html',
+							0, 0,
+							16, 410, 46, 450,
+							'B4층계단',
+							'Location', '');
+
+//
+// 수정해야하는 부분 끝
+//--------------------------------------------------------------------------------------------------------------------------
+
+document.title = "Final Fantasy II 맵 공략 : " + cName.name;
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY style="margin:0">
+<SCRIPT src="../imagemap.js"></SCRIPT>
+
+
+</BODY>
+</HTML>

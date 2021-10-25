@@ -1,0 +1,78 @@
+<!-- Final Fantasy II 맵 공략 -------------------------------------------------------------------------------------------->
+<!-- 3_4 설원의동굴 B4F -------------------------------------------------------------------------------------------->
+<!doctype html>
+<html lang="ko">
+<HEAD>
+<meta charset="UTF-8">
+<TITLE></TITLE>
+<SCRIPT src="../functions.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//--------------------------------------------------------------------------------------------------------------------------
+// 수정해야하는 부분
+//
+
+// createObject('브라우저타이틀', "맵이름이미지", x, y, 0,0,0,0, '', '팝업이면popup명시', '맵이미지');
+cName = new createObject('설원의동굴 B4F', "03_4-name.gif", 13, 338,0,0,0,0,'','','03_4-main.gif'); // x가 -1이면 맵이름 x
+
+cCount = 7; //이벤트의 갯수
+
+// 설명은 스크립트 참조
+cItem1 = new createObject(	'item01', '03_4-item01.gif',
+							0, 15,
+							55, 65, 85, 95,
+							'포션',
+							'Layer', '');
+
+cItem2 = new createObject(	'item02', '03_4-item02.gif',
+							177, 18,
+							277, 68, 307, 98,
+							'브리자드의 책',
+							'Layer', '');
+
+cItem3 = new createObject(	'item03', '03_4-item03.gif',
+							212, 400,
+							312, 450, 342, 480,
+							'포션',
+							'Layer', '');
+
+cItem4 = new createObject(	'item04', '03_4-item04.gif',
+							354, 335,
+							454, 385, 484, 415,
+							'미스릴스피어',
+							'Layer', '');
+
+cItem5 = new createObject(	'floor01', '03_3.html',
+							0, 0,
+							120, 375, 150, 425,
+							'B3층계단',
+							'Location', '');
+
+cItem6 = new createObject(	'floor02', '03_5.html',
+							0, 0,
+							340, 92, 370, 142,
+							'B5층계단',
+							'Location', '');
+
+cItem7 = new createObject(	'floor03', '03_4.html',
+							0, 0,
+							16, 410, 46, 450,
+							'B4층계단',
+							'Location', '');
+
+//
+// 수정해야하는 부분 끝
+//--------------------------------------------------------------------------------------------------------------------------
+
+document.title = "Final Fantasy II 맵 공략 : " + cName.name;
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY style="margin:0">
+<SCRIPT src="../imagemap.js"></SCRIPT>
+
+
+</BODY>
+</HTML>

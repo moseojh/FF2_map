@@ -1,0 +1,80 @@
+<!-- Final Fantasy II 맵 공략 -------------------------------------------------------------------------------------------->
+<!-- 6_1 디스트의성 1F -------------------------------------------------------------------------------------------->
+<!doctype html>
+<html lang="ko">
+<HEAD>
+<meta charset="UTF-8">
+<TITLE></TITLE>
+<SCRIPT src="../functions.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//--------------------------------------------------------------------------------------------------------------------------
+// 수정해야하는 부분
+//
+
+// createObject('브라우저타이틀', "맵이름이미지", x, y, 0,0,0,0, '', '팝업이면popup명시', '맵이미지');
+cName = new createObject('디스트의성 1F', "06_1-name.gif", 44, 400,0,0,0,0,'','','06_1-main.gif'); // x가 -1이면 맵이름 x
+
+cCount = 7; //이벤트의 갯수
+
+// 설명은 스크립트 참조
+cItem1 = new createObject(	'item01', '06_1-item01.gif',
+							0, 365,
+							54, 415, 84, 445,
+							'피닉스의꼬리',
+							'Layer', '');
+
+cItem2 = new createObject(	'item02', '06_1-item02.gif',
+							178, 365,
+							278, 415, 308, 445,
+							'유니콘의뿔',
+							'Layer', '');
+
+cItem3 = new createObject(	'floor01', '06_2.html',
+							0, 0,
+							151, 170, 181, 220,
+							'2층계단',
+							'Location', '');
+
+cItem4 = new createObject(	'floor02', '06_2.html',
+							0, 0,
+							84, 413, 114, 463,
+							'2층계단',
+							'Location', '');
+
+cItem5 = new createObject(	'floor03', '06_2.html',
+							0, 0,
+							469, 59, 499, 109,
+							'2층계단',
+							'Location', '');
+
+
+cItem6 = new createObject(	'event01', '06_1_1.html',
+							0, 0,
+							52, 72, 82, 112,
+							'상자방',
+							'Popup', '464, 208');
+
+cItem7 = new createObject(	'event02', '06_1_2.html',
+							0, 0,
+							309, 264, 339, 304,
+							'상자방',
+							'Popup', '232, 156');
+
+
+//
+// 수정해야하는 부분 끝
+//--------------------------------------------------------------------------------------------------------------------------
+
+document.title = "Final Fantasy II 맵 공략 : " + cName.name;
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY style="margin:0">
+<SCRIPT src="../imagemap.js"></SCRIPT>
+
+
+</BODY>
+</HTML>

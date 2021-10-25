@@ -1,0 +1,66 @@
+<!-- Final Fantasy II 맵 공략 -------------------------------------------------------------------------------------------->
+<!-- 4_4 카슈온성 3F -------------------------------------------------------------------------------------------->
+<!doctype html>
+<html lang="ko">
+<HEAD>
+<meta charset="UTF-8">
+<TITLE></TITLE>
+<SCRIPT src="../functions.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//--------------------------------------------------------------------------------------------------------------------------
+// 수정해야하는 부분
+//
+
+// createObject('브라우저타이틀', "맵이름이미지", x, y, 0,0,0,0, '', '팝업이면popup명시', '맵이미지');
+cName = new createObject('카슈온성 4F', "04_4-name.gif", 362, 4,0,0,0,0,'','','04_4-main.gif'); // x가 -1이면 맵이름 x
+
+cCount = 5; //이벤트의 갯수
+
+// 설명은 스크립트 참조
+cItem1 = new createObject(	'event01', '04_4_1.html',
+							0, 0,
+							276, 189, 306, 229,
+							'상자방',
+							'Popup', '232, 156');
+
+cItem2 = new createObject(	'event02', '04_4_2.html',
+							0, 0,
+							51, 416, 81, 456,
+							'보스방',
+							'Popup', '232, 278');
+
+cItem3 = new createObject(	'floor01', '04_3.html',
+							0, 0,
+							467, 78, 497, 128,
+							'3층계단',
+							'Location', '');
+
+cItem4 = new createObject(	'floor02', '04_5.html',
+							0, 0,
+							82, 239, 112, 289,
+							'5층계단',
+							'Location', '');
+
+cItem5 = new createObject(	'floor02', '04_5.html',
+							0, 0,
+							82, 396, 112, 446,
+							'5층계단',
+							'Location', '');
+
+//
+// 수정해야하는 부분 끝
+//--------------------------------------------------------------------------------------------------------------------------
+
+document.title = "Final Fantasy II 맵 공략 : " + cName.name;
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY style="margin:0">
+<SCRIPT src="../imagemap.js"></SCRIPT>
+
+
+</BODY>
+</HTML>
